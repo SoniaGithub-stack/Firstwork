@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background-color: white;
+    position: relative;
+}
+.top-cloud{
+    margin-top: 200px;
+    margin-left: 1100px;
+    width: 300px;
+    
+}
+.bottom-cloud{
+   margin-bottom: 300px;
+    margin-left: 200px;
+    width: 200px;
+}
+.mountain{
+    margin-right: 300px;
+    margin-left: 100px;
+    width: 600px;
+    height: 500px;
+}
+ /* h1{
+    font-family:'Sacramento', cursive;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size:  50px;
+} */
+h1{
+    text-align: center;
+    margin: 50px auto 0 auto;
+    color: #11999E;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    /* line-height: 2;*/
+} 
+h3{
+    font-family: 'Montserrat' sans-serif;
+    color: #11999E;
+}
+.top-container h2{
+    margin-left:670px ;
+    margin-top: 80px;
+    font-family:'Merriweather', sans-serif;
+    font-style: italic;
+}
+.profile{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.intro{
+    width: 40%;
+    margin: auto;
+}
+.profile img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+}
+.hello{
+    font-size: 50px;
+    color: green;
+    font-weight: 100;
+}
+p{
+    font-family: 'Montserrat' sans-serif;
+    line-height: 2;
+}
+.skills{
+    gap: 2rem;
+}
+.skills h2{
+    font-weight: 100;
+   text-align: center;
+    font-size: 50px;
+    color: green;
+}
+.skill-image{
+    width: 130px;
+    height: 130px;
+    float: left;
+    gap: 2rem;
+}
+.skill-image2{
+    width: 200px;
+    height: 200px;
+    float: right;
+    gap: 1rem;
+   
+}
+.skill-row{
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;
+    gap: 2rem;
+}
+.skill-row1{
+    width: 40%;
+    margin-top: 30%;
+    margin-right: 20%;
+    margin-left: 30%;
+    gap: 2rem;
+    margin-top: 3%;
+}
+.one{
+    margin-top: 100px;
+}
+.row-con1 h3{
+    padding-right: 50%;
+    
+}
+.down{
+    text-align: center;
+    margin-top: 10%;
+}
+.bottom-container{
+    text-align: center;
+    gap: 4rem;
+    margin-top: 7%;
+    padding: 20px 100px;
+    background-color: #66BFB9;
+    text-decoration: none;
+}
+.bottom-container >*{
+    gap: 20rem;
+    justify-content: space-between;
+}
+.a{
+    text-decoration: none;
+    gap: 2rem;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: #66BFB9;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #30e3cB;
+    text-decoration: underline;
+}
+.btn1{
+    color: #11999E;
+    font-weight: 100;
+}
+.copyright{
+    color: white;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    position: fixed;
+    margin: 0px auto 30px;
+    background-color:#11999E;
+    width: 100%;
+    padding: 40px;
+}
+.nav-icons{
+    position: absolute;
+    left: 53%;
+}
+.nav-icons a{
+    gap: 20rem;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 0;
+    color: white;
+}
